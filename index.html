@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Behavioral Interview Cheatsheet for Tech Roles</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0f172a; /* bg-slate-900 */
+            color: #cbd5e1; /* text-slate-300 */
+        }
+        .section-card {
+            background-color: #1e293b; /* bg-slate-800 */
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            border: 1px solid #334155; /* border-slate-700 */
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            height: 100%;
+            transition: all 0.3s ease-in-out;
+        }
+        .section-card:hover {
+            transform: translateY(-4px);
+            border-color: #475569;
+        }
+        .section-title {
+            font-weight: 700;
+            font-size: 1.25rem;
+            color: #f1f5f9; /* text-slate-100 */
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+        }
+        .icon {
+            width: 1.5rem;
+            height: 1.5rem;
+            margin-right: 0.75rem;
+        }
+        .star-icon { color: #60a5fa; } /* blue-400 */
+        .strategy-icon { color: #34d399; } /* emerald-400 */
+        .questions-icon { color: #818cf8; } /* indigo-400 */
+        .dimensions-icon { color: #2dd4bf; } /* teal-400 */
+        .dos-icon { color: #4ade80; } /* green-400 */
+        .donts-icon { color: #f87171; } /* red-400 */
+        .tips-icon { color: #fb923c; } /* orange-400 */
+
+    </style>
+</head>
+<body class="antialiased">
+    <div class="container mx-auto p-4 sm:p-6 lg:p-8">
+        <!-- Header -->
+        <div class="text-center mb-10">
+            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white">Behavioral Interview Cheatsheet</h1>
+            <p class="text-slate-400 mt-2">A guide to ace the behavioral rounds at FAANG-level companies.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- STAR Framework -->
+            <div class="section-card lg:col-span-2">
+                <h2 class="section-title">
+                    <svg class="icon star-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" /></svg>
+                    The STAR Framework: Structure Your Stories
+                </h2>
+                <div class="space-y-4 text-slate-300">
+                    <p><strong class="text-blue-400">S (Situation):</strong> Briefly set the scene. Describe the context and relevant background. Where and when did this happen?</p>
+                    <p><strong class="text-blue-400">T (Task):</strong> Explain your specific responsibility or the goal. What was the challenge or objective you needed to accomplish?</p>
+                    <p><strong class="text-blue-400">A (Action):</strong> Describe the specific steps YOU took to address the task. Focus on your individual contributions, skills, and decision-making process. Use "I" statements.</p>
+                    <p><strong class="text-blue-400">R (Result):</strong> Share the outcome of your actions. What was the impact? Use metrics and quantifiable data whenever possible to demonstrate success.</p>
+                </div>
+                 <div class="mt-4 pt-4 border-t border-slate-700">
+                    <h3 class="font-semibold text-slate-200">Quick Tip:</h3>
+                    <p class="text-sm text-slate-400">Keep it concise. Aim for a 2-3 minute response. The 'Action' part should be the longest.</p>
+                 </div>
+            </div>
+
+            <!-- Answering Strategy -->
+            <div class="section-card">
+                <h2 class="section-title">
+                     <svg class="icon strategy-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 100 15 7.5 7.5 0 000-15zM21 21l-5.2-5.2" /></svg>
+                    Answering Strategy
+                </h2>
+                <ul class="space-y-3 list-disc list-inside text-slate-300">
+                    <li><strong>Quantify Results:</strong> Use numbers, percentages, and metrics (e.g., "reduced latency by 15%").</li>
+                    <li><strong>Focus on Impact:</strong> Clearly state the positive effect your actions had on the project, team, or company.</li>
+                    <li><strong>Show Ownership:</strong> Demonstrate you take responsibility for your work, from initiation to completion.</li>
+                    <li><strong>Be Reflective:</strong> Conclude with what you learned and how you'd apply it in the future.</li>
+                    <li><strong>Tailor to the Role:</strong> Align your stories with the values and skills in the job description.</li>
+                </ul>
+            </div>
+            
+             <!-- Top Behavioral Questions -->
+            <div class="section-card lg:col-span-2">
+                <h2 class="section-title">
+                    <svg class="icon questions-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 6.75h7.5M8.25 12h7.5m-7.5 5.25h7.5M3.75 6.75h.007v.008H3.75V6.75zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zM3.75 12h.007v.008H3.75V12zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm-.375 5.25h.007v.008H3.75v-.008zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" /></svg>
+                    Top Behavioral Questions to Master
+                </h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-4 text-slate-300">
+                     <p>Tell me about a time you <strong>failed</strong> or made a mistake.</p>
+                     <p>Describe your most significant <strong>achievement</strong>.</p>
+                     <p>Tell me about a time you had a <strong>conflict</strong> with a teammate or manager.</p>
+                     <p>How do you handle tight deadlines or <strong>prioritize tasks</strong>?</p>
+                     <p>Describe a time you had to learn something new <strong>quickly</strong>.</p>
+                     <p>Tell me about a time you <strong>disagreed</strong> with a decision and what you did.</p>
+                     <p>Give an example of a complex problem you <strong>solved</strong>.</p>
+                     <p>How do you handle <strong>ambiguity</strong> or changing requirements?</p>
+                </div>
+            </div>
+
+            <!-- Meta's Core Dimensions -->
+            <div class="section-card">
+                 <h2 class="section-title">
+                    <svg class="icon dimensions-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3v11.25A2.25 2.25 0 006 16.5h12M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-1.5m-6 3.75a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+                    FAANG Behavioral Dimensions
+                </h2>
+                <p class="text-sm text-slate-500 mb-3">Companies look for signals in these key areas (e.g., Meta's dimensions):</p>
+                <ul class="space-y-2 text-slate-300">
+                    <li><strong>Leadership:</strong> Influencing others, taking initiative, mentoring.</li>
+                    <li><strong>Collaboration:</strong> Teamwork, communication, handling disagreements.</li>
+                    <li><strong>Execution:</strong> Delivering results, planning, dealing with ambiguity.</li>
+                    <li><strong>Growth Mindset:</strong> Learning from failure, seeking feedback, adapting.</li>
+                    <li><strong>Problem-Solving:</strong> Analytical skills, breaking down complex issues.</li>
+                </ul>
+            </div>
+            
+            <!-- Do's and Don'ts -->
+            <div class="section-card">
+                 <h2 class="section-title">Do's & Don'ts</h2>
+                 <div class="space-y-4">
+                    <div>
+                         <h3 class="font-semibold text-slate-200 flex items-center mb-2">
+                            <svg class="icon dos-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                            Do
+                         </h3>
+                        <ul class="list-disc list-inside text-sm space-y-1 pl-2 text-slate-400">
+                           <li>Be specific and detailed in your actions.</li>
+                           <li>Be honest and authentic.</li>
+                           <li>Be reflective and show what you learned.</li>
+                           <li>Listen carefully to the question.</li>
+                        </ul>
+                    </div>
+                     <div>
+                         <h3 class="font-semibold text-slate-200 flex items-center mb-2">
+                             <svg class="icon donts-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                             Don't
+                         </h3>
+                        <ul class="list-disc list-inside text-sm space-y-1 pl-2 text-slate-400">
+                           <li>Give generic, hypothetical answers.</li>
+                           <li>Ramble or go off-topic.</li>
+                           <li>Blame others or be negative.</li>
+                           <li>Claim credit for team-wide efforts. Use "I" not "we."</li>
+                        </ul>
+                    </div>
+                 </div>
+            </div>
+            
+            <!-- Quick Practice Tips -->
+            <div class="section-card lg:col-span-2">
+                 <h2 class="section-title">
+                     <svg class="icon tips-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L6.832 19.82a4.5 4.5 0 01-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 011.13-1.897L16.863 4.487zm0 0L19.5 7.125" /></svg>
+                     Quick Practice Tips
+                 </h2>
+                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                     <div class="text-center">
+                         <div class="mx-auto bg-slate-700 rounded-lg h-16 w-16 flex items-center justify-center mb-2">
+                            <svg class="h-8 w-8 text-orange-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" /></svg>
+                         </div>
+                         <h3 class="font-semibold text-slate-200">Build a Story Bank</h3>
+                         <p class="text-sm text-slate-400">Prepare 5-7 detailed stories covering different scenarios (success, failure, conflict).</p>
+                     </div>
+                      <div class="text-center">
+                         <div class="mx-auto bg-slate-700 rounded-lg h-16 w-16 flex items-center justify-center mb-2">
+                           <svg class="h-8 w-8 text-orange-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 18.75a6 6 0 006-6v-1.5m-6 7.5a6 6 0 01-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 01-3-3V4.5a3 3 0 016 0v8.25a3 3 0 01-3 3z" /></svg>
+                         </div>
+                         <h3 class="font-semibold text-slate-200">Practice Out Loud</h3>
+                         <p class="text-sm text-slate-400">Record yourself or practice with a friend. This helps refine timing and delivery.</p>
+                     </div>
+                      <div class="text-center">
+                         <div class="mx-auto bg-slate-700 rounded-lg h-16 w-16 flex items-center justify-center mb-2">
+                           <svg class="h-8 w-8 text-orange-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 15.75l-2.489-2.489m0 0a3.375 3.375 0 10-4.773-4.773 3.375 3.375 0 004.774 4.774zM21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                         </div>
+                         <h3 class="font-semibold text-slate-200">Research the Company</h3>
+                         <p class="text-sm text-slate-400">Understand the company's values and mission. Weave them into your answers naturally.</p>
+                     </div>
+                 </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
